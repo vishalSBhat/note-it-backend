@@ -4,7 +4,7 @@ const helmet = require('helmet');
 const cors = require('cors');
 
 const app = express(),
-    port = process.env.port || 5000;
+    port = process.env.PORT || 5000;
 
 mongoose.connect("mongodb+srv://admin-V:q1w2e3r4@v-lytod.mongodb.net/toDoDB", {
     useUnifiedTopology: true,
